@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-honey-gold: #FFC30B;
+  --color-coral-alto: #FE706A;
+  --color-vivid-sky: #00CCFF;
+}
+
+@layer base {
+  body {
+    /* Vertical transition: Light Marble -> Tech Gray -> Deep Lead */
+    background: linear-gradient(
+      180deg, 
+      #f8fafcea 0%, 
+      #e2e8f0e6 40%, 
+      #cbd5e1d0 100%
+    );
+    background-attachment: fixed;
+    @apply text-slate-900 min-h-screen font-sans antialiased;
+  }
+}

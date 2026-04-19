@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="#09090B" stroke="#FE706A" stroke-width="2.5"/>
+  
+  <rect x="10" y="12" width="4" height="8" rx="2" fill="#00CCFF">
+    <animate attributeName="opacity" values="1;1;0.2;1;1" dur="4s" repeatCount="indefinite" />
+  </rect>
+  <rect x="18" y="12" width="4" height="8" rx="2" fill="#00CCFF">
+    <animate attributeName="opacity" values="1;1;0.2;1;1" dur="4s" repeatCount="indefinite" />
+  </rect>
+</svg>
